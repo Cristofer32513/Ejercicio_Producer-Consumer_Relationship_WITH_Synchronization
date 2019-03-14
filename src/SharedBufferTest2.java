@@ -13,8 +13,8 @@ public class SharedBufferTest2 {
 		//create SynchronizedBuffer to store ints
 		Buffer sharedLocation = new SynchronizedBuffer();
 
-		System.out.printf("%-40s%s\t\t%s%n%-40s%s%n%n", "    Operation",
-				"      Buffer", "Occupied", "    ---------", "      ------\t\t--------");
+		System.out.printf("%-40s%s\t\t%s%n%-40s%s%n%n", "    Operacion",
+				"      Buffer", "Ocupado", "    ---------", "      ------\t\t-------");
 
 		//execute the Producer and Consumer tasks
 		executorService.execute(new Producer(sharedLocation));

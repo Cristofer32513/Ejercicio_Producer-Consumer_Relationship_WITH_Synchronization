@@ -51,6 +51,6 @@ public class SynchronizedBuffer implements Buffer {
 
 	// display current operation and buffer state; for demo only
 	private synchronized void displayState(String operation) {
-		System.out.printf("%-40s	%d		  %b%n%n", operation, buffer, occupied);
+		System.out.printf("%-40s	%d		 %b%n%n", operation, buffer, occupied);
 	}
 } // end class SynchronizedBuffer
